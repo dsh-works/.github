@@ -9,7 +9,7 @@
 Two of us, one bench, and a growing pile of things that make the harness feel less like a chat
 box and more like a place you work in. A drawing surface that can look at its own art. A creature
 in the corner with opinions. A bell that rings when the agent is done, and tells you what the
-afternoon cost. A process for building thirty bees modules that holds up under a real shop.
+afternoon cost.
 
 The repositories here are private. If you landed on this page and can't see any code: that's the
 door, not the mystery. Members get the keys.
@@ -25,20 +25,12 @@ door, not the mystery. Members get the keys.
 All three are real bundles: a host half, a browser half, a `cordis.patch.yml`, tests, and a
 README that says what the thing cannot do.
 
-## Also here
-
-Not everything on the bench is a plugin. **`dsh-tb-workflow`** is the process and tooling for
-building thirty bees modules: kickoff, a design document, approval gates, feature branches, CI,
-testing in a real shop, independent review, release. It ships the two skills, a module scaffolder,
-a shop harness that installs and inspects a module from the CLI, and the lessons collected across
-modules so far.
-
-It exists for one reason: no module is built before its design is agreed, and no module is called
-done before it has been exercised in a shop.
-
 ## On the bench
 
 - **Something for the filesystem.** Currently a sentence and a feeling.
+- **A plugin manager that keeps itself current.** Right now a bundle is a directory you cloned once
+  and now have to remember. The idea: version checks, a changelog you can read before you take an
+  update, and one action to move a profile onto the new tag.
 - **Hand editing in the pixel art panel.** The plugin reviews, reopens and exports drawings; it
   does not paint them yet. That is §4.5 of its `SCOPE.md`, and it stays there until it is good.
 - **One more thinking reaction in Pip.** Its README declines to describe it. So do I.
