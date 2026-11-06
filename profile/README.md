@@ -11,8 +11,8 @@ box and more like a place you work in. A drawing surface that can look at its ow
 in the corner with opinions. A bell that rings when the agent is done, and tells you what the
 afternoon cost.
 
-The repositories here are private. If you landed on this page and can't see any code: that's the
-door, not the mystery. Members get the keys.
+Most of the code here is private. If you landed on this page and can't see any of it: that's the
+door, not the mystery. Members get the keys. The rulebook and this page are public.
 
 ## What's here
 
@@ -25,12 +25,24 @@ door, not the mystery. Members get the keys.
 All three are real bundles: a host half, a browser half, a `cordis.patch.yml`, tests, and a
 README that says what the thing cannot do.
 
+## The rulebook
+
+[`dsh-plugin-development`](https://github.com/dsh-works/dsh-plugin-development) is public: the skill
+and process every plugin here is built against — plan gates, bundle shape, the standards, the
+templates, and a lessons ledger. The
+[repository taxonomy](https://github.com/dsh-works/.github/blob/main/REPO-TAXONOMY.md) says what a
+repository in this org is — plugin, skill, process or profile — and each repository wears its kind
+as a GitHub topic.
+
+It is public because a process nobody can read is a rumour.
+
 ## On the bench
 
 - **Something for the filesystem.** Currently a sentence and a feeling.
-- **A plugin manager that keeps itself current.** Right now a bundle is a directory you cloned once
-  and now have to remember. The idea: version checks, a changelog you can read before you take an
-  update, and one action to move a profile onto the new tag.
+- **[Viburnum](https://github.com/dsh-works/viburnum).** The plugin manager that keeps itself
+  current: a sync button for the linked checkouts on two machines — fetch, fast-forward or rebase,
+  push, reload, and a dot in the sidebar when something is behind. Design only so far; `DESIGN.md`
+  is the thing to read.
 - **Hand editing in the pixel art panel.** The plugin reviews, reopens and exports drawings; it
   does not paint them yet. That is §4.5 of its `SCOPE.md`, and it stays there until it is good.
 - **One more thinking reaction in Pip.** Its README declines to describe it. So do I.
@@ -65,7 +77,7 @@ The rules, such as they are:
 1. Get the harness running — `dsh web` from a checkout of
    [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness). Node 22 or 24; the bundles
    declare `dsh ^0.2.1-rc.2` as a floor, not a promise.
-2. Clone whichever repo you want.
+2. Clone whichever plugin repo you want.
 3. Install it as a bundle: `dsh plugin --profile web add <absolute path>`, or `plugin_manager` →
    `install_bundle` from a session. Then check the package landed in **both** `dependencies` and
    `dsh.profile.bundles` — a `link:` on its own mounts nothing.
@@ -76,8 +88,8 @@ The rules, such as they are:
 ## Why an organization
 
 Because inviting a friend to one repository at a time, again, every time, is a chore that gets
-worse with each repository. Here the invite happens once, the code stays private, and nobody has
-to remember which link to send.
+worse with each repository. Here the invite happens once, the plugin code stays private, and nobody
+has to remember which link to send.
 
 Nothing in here is a product. It is a workbench with a door, and the door is open to people we
 like.
