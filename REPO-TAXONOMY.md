@@ -54,7 +54,7 @@ not where it is in its life.
 | Repository | Visibility | Kind |
 |---|---|---|
 | `.github` | public | `dsh-org` |
-| `dsh-fren` | private | `dsh-plugin` |
+| `dsh-plugin-pip` | private | `dsh-plugin` |
 | `dsh-plugin-alerts` | private | `dsh-plugin` |
 | `dsh-plugin-development` | public | `dsh-skill` |
 | `dsh-plugin-pixelart` | private | `dsh-plugin` |

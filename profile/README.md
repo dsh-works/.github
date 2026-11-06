@@ -22,7 +22,7 @@ ready.
 | :---------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
 | **viburnum** | `viburnum` | A sync button for your own linked plugin checkouts across two machines: a sidebar dot, a page, `vib_*` tools and a `vib` CLI. Public, MIT, open for contributions. | `0.1` |
 | **Pixel Art** | `dsh-plugin-pixelart` | Four `pixelart_*` tools and a live sidebar tab. The model draws a character grid, sees the image, gets a critique, and draws it again — pixel art with a feedback loop. There is no image-generating model anywhere in it. | `0.4` |
-| **Pip** | `dsh-fren` | A 32×32 creature that lives in the corner of the window: walks, dozes, thinks along with the composer, celebrates a landed turn, and occasionally has to run from the police. 25 spritesheets, 113 frames, one spring-loaded antenna. | `1.3` |
+| **Pip** | `dsh-plugin-pip` | A 32×32 creature that lives in the corner of the window: walks, dozes, thinks along with the composer, celebrates a landed turn, and occasionally has to run from the police. 25 spritesheets, 113 frames, one spring-loaded antenna. | `1.3` |
 | **Alerts** | `dsh-plugin-alerts` | A chime, a desktop notification and a tab-title marker when a turn finishes or the agent needs you — with that run's duration, tokens and estimated cost. The same arithmetic, quietly, as a pill beside every reply. | `0.4` |
 
 All four are real bundles: a host half, a browser half, a `cordis.patch.yml`, tests, and a
