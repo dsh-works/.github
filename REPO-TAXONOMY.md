@@ -28,7 +28,7 @@ or experiment repository silently becomes a "process" repository and the label s
 skills are payload inside the bundle, not a second kind.
 
 A topic that disagrees with the contents is a bug: fix the topic. Any consumer that imports repositories
-(Viburnum's organisation door, a future indexer) gates on the manifest and uses topics only to group,
+(viburnum's organisation door, a future indexer) gates on the manifest and uses topics only to group,
 filter and label. It handles both failure directions: a repository tagged `dsh-plugin` with no bundle
 manifest is an **error row**, never an import; a repository with a bundle but no kind topic is
 importable and shown as **untagged**. The name is not evidence either: `dsh-plugin-development` is a
@@ -59,4 +59,4 @@ not where it is in its life.
 | `dsh-plugin-development` | public | `dsh-skill` |
 | `dsh-plugin-pixelart` | private | `dsh-plugin` |
 | `dsh-tb-workflow` | private | `dsh-process` |
-| `viburnum` | private | `dsh-plugin` (planned — `main` has no manifest yet) |
+| `viburnum` | public | `dsh-plugin` |
