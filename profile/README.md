@@ -6,7 +6,7 @@
   <em>A small workshop for <a href="https://github.com/deepseek-ai/deepseek-harness">DeepSeek Harness</a> plugins: private by default, with the workbench and the rulebook open.</em>
 </p>
 
-Two of us, one bench, and a growing pile of things that make the harness feel less like a chat
+A few of us, one bench, and a growing pile of things that make the harness feel less like a chat
 box and more like a place you work in. A drawing surface that can look at its own art. A creature
 in the corner with opinions. A bell that rings when the agent is done, and tells you what the
 afternoon cost. And a workbench that keeps all of it current across two machines.
